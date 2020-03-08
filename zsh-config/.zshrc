@@ -11,6 +11,9 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Add snap bin in PATH
+export PATH="$PATH:/snap/bin"
+
 # Ubuntu style ls aliases
 alias ll='ls -alF'
 alias la='ls -A'
