@@ -18,3 +18,6 @@ export PATH="$PATH:/snap/bin"
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
+# Safety alias to make rm less scary to use
+alias rm="rm -I"
